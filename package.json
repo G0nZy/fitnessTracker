@@ -1,0 +1,27 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "A super awesome fitness tracker ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "g0nzy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G0nZy/fitnessTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/G0nZy/fitnessTracker/issues"
+  },
+  "homepage": "https://github.com/G0nZy/fitnessTracker#readme"
+}
